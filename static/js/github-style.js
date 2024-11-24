@@ -79,7 +79,7 @@ function monthly(year, month, posts) {
     liHtml += `<li class="ml-0 py-1 d-flex">
     <div
       class="col-8 css-truncate css-truncate-target lh-condensed width-fit flex-auto min-width-0">
-      <a href="${post.link}">${post.title}</a>
+      <a href="${post.link}">${post.section} - ${post.title}</a>
     </div>
     <time  title="This post was made on ${months[post.date.getMonth()]} ${post.date.getDate()}"
       class="col-2 text-right f6 text-gray-light pt-1">
